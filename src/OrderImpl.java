@@ -8,7 +8,7 @@ public class OrderImpl implements Order{
         OrderSystemImpl orderSystemImpl = new OrderSystemImpl();
 
         for (Map.Entry<String, Integer> entry : orderSystemImpl.menuChart.entrySet()) {
-            System.out.println("Items: " + entry.getKey() + ", Price: " + entry.getValue());
+            System.out.println("Item: " + entry.getKey() + ", Price: " + entry.getValue());
         }
 
 
